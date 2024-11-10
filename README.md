@@ -7,7 +7,7 @@ LOF每日溢价监控助手，用于每日定时检查LOF溢价情况，并自�
 > 所有数据均爬取自[集思录](https://www.jisilu.cn/data/lof/#stock)
 
 ![LOF](doc/lof.jpg)
-
+ 
 ## 使用 GitHub Actions
 
 **推荐使用`GitHub Actions`的方式运行此程序**。`GitHub Actions`可以免费使用，不需要使用自己服务器。
