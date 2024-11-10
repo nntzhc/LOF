@@ -26,7 +26,7 @@ class LOF:
         header = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36",}
         self.session.headers.update(header)
         self.urlBase = "https://www.jisilu.cn/data/lof/detail/"
-        self.urlLOF = "https://www.jisilu.cn/data/lof/stock_lof_list/?___jsl=LST___t="
+        self.urlLOF = "https://www.jisilu.cn/data/lof/index_lof_list/?___jsl=LST___t="
 
     def getInfo(self, id):
         r = self.session.get(self.urlLOF + str(int(time.time())*1000))
